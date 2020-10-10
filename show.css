@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    font-size: 6px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(gray,rgb(70, 67, 67),rgb(22, 20, 20),black);
+}
+
+button{
+    width: 14rem;
+    height: 7rem;
+    background: #000;
+    color: #fff;
+    margin: 6rem;
+    display: inline-block;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: gray;
+    color: black;
+}
+
+.top{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.bottom{
+    background-color: transparent;
+    height: 100vh;
+}
+
+h1{
+    font-size: 7rem;
+    background-color: transparent;
+}
+
+h2{
+    font-size: 3rem;
+    background-color: transparent;
+}
+
+.details{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    color: white;
+    padding: 0 10rem;
+    overflow: hidden;
+}
+
+span{
+    color: black;
+    font-size: 8rem;
+    background-color: transparent;
+}
+
+#nam{
+    text-decoration: red;
+}
+
+.line1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line5{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line6{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line7{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line8{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line9{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line10{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.line11{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.image{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    margin-bottom: 5rem;
+}
+
+img{
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    background-color: transparent;
+}
+
+@media (max-width: 1000px){
+    *{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 700px){
+    *{
+        font-size: 4px;
+    }
+}
+
+@media (max-width: 560px){
+    *{
+        font-size: 3px;
+    }
+}
+
+@media (max-width: 430px){
+    *{
+        font-size: 2px;
+    }
+}
+
+@media (max-width: 300px){
+    *{
+        font-size: 1px;
+    }
+}
